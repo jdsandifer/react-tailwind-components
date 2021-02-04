@@ -1,7 +1,7 @@
 import BudgetTable from './pages/BudgetTable'
 
 const App = () => (
-    <div>
+    <div className="h-full">
         <nav className="bg-gray-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
@@ -124,7 +124,7 @@ const App = () => (
                 </h1>
             </div>
         </header>
-        <main>
+        <main className="bg-gray-100 h-full">
             <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
                 <BudgetTable />
             </div>
